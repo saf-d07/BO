@@ -36,7 +36,7 @@ article {
 .avatar {
     width: 200px;
     height: 200px;
-    background-image: url(/img/imaginepfp.png);
+    background-image: url(../img/imaginepfp.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -80,11 +80,11 @@ nav ul li {
 }
 
 .home .image {
-    background-image: url(/img/purmerend.jpg);
+    background-image: url(../img/purmerend.jpg);
 }
 
 .free_time .image {
-    background-image: url(/img/videdit.jpg);
+    background-image: url(../img/videdit.jpg);
 }
 
 .free_time .container {
@@ -120,5 +120,5 @@ section {
 }
 
 .kandoen .image{
-    background-image: url(/img/htmlpic.jpg);
+    background-image: url(../img/htmlpic.jpg);
 }
