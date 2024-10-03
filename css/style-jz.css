@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 200%;
+    margin: 20px 0 50px 0;
+}
+
+h1.title {
+    text-align: center;
+    text-decoration: underline;
+}
+
+article {
+    width: 60vw;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    background-image: url(/img/imaginepfp.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    flex: none;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.about_me {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid red;
+}
+
+.home .container {
+    justify-content: space-between;
+}
+
+.image {
+    width: 350px;
+    height: 230px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: none;
+    border-radius: 15px;
+}
+
+.home .image {
+    background-image: url(/img/purmerend.jpg);
+}
+
+.free_time .image {
+    background-image: url(/img/videdit.jpg);
+}
+
+.free_time .container {
+    justify-content: space-between;
+}
+
+.position_right {
+    text-align: right;
+}
+
+section h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 26px;
+
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+.top_10 {
+    text-align: center;
+}
+
+.top_10 .container {
+    list-style-position: inside;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kandoen .image{
+    background-image: url(/img/htmlpic.jpg);
+}
